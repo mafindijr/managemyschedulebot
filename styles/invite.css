@@ -1,0 +1,118 @@
+header {
+    background-color: rgb(168, 25, 25);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: rgb(168, 25, 25);
+}
+.link-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.link-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.link-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgb(168, 25, 25);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link-container button:hover {
+    background-color: lightslategray;
+}
+
+.social-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.social-buttons .whatsapp {
+    background-color: #25D366;
+}
+
+.social-buttons .telegram {
+    background-color: #0088cc;
+}
+
+.social-buttons .facebook {
+    background-color: #3b5998;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(168, 25, 25);
+    padding: 10px 0;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+footer a .icon {
+    font-size: 24px;
+}
+
+footer a span {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 480px) {
+    .link-container input {
+        font-size: 14px;
+    }
+    .link-container button {
+        font-size: 14px;
+    }
+    .social-buttons a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    footer {
+        flex-direction: row;
+        padding: 5px 0;
+    }
+    footer a {
+        font-size: 14px;
+    }
+}

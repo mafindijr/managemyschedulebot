@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Event Invitation</title>
+    <style></style>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/invite.css">
+    <script src="https://kit.fontawesome.com/f33a17ca19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+
+        <h1>Share Your Event Invitation</h1>
+
+    </header>
+
+    <section>
+
+        <h2>Generate and Share Your Invitation Link</h2>
+
+        <div class="link-container">
+
+            <input type="text" id="eventLink" readonly value="https://eventschedulerbot.com/invite?eventId=12345">
+
+            <button onclick="copyToClipboard()">Copy Link</button>
+
+        </div>
+
+        <p>Share your event link via:</p>
+
+        <div class="social-buttons">
+
+            <a href="https://wa.me/?text=https://eventschedulerbot.com/invite?eventId=12345" target="_blank" class="whatsapp">WhatsApp</a>
+
+            <a href="https://telegram.me/share/url?url=https://eventschedulerbot.com/invite?eventId=12345" target="_blank" class="telegram">Telegram</a>
+
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://eventschedulerbot.com/invite?eventId=12345" target="_blank" class="facebook">Facebook</a>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <a href="dashboard.html">
+            <i class="fas fa-tachometer-alt icon"></i>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="events.html">
+            <i class="fas fa-calendar-alt icon"></i>
+            <span>Events</span>
+        </a>
+
+        <a href="create-events.html">
+            <i class="fas fa-plus-circle icon"></i>
+            <span>Create Event</span>
+        </a>
+
+        <a href="invite.html">
+            <i class="fas fa-share-alt icon"></i>
+            <span>Invite Friends</span>
+        </a>
+
+    </footer>
+
+    <script src="scripts/invite.js"></script>
+
+</body>
+</html>

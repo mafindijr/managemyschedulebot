@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/f33a17ca19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/containers.css">
+</head>
+<body>
+
+    
+    
+    <header>
+
+        
+        <div class="profile-flexbox">
+
+            <!--invoke the telegram profile-->
+            <div><img src="images/abdu.jpg" alt="profile-picture" class="p-image"></div>
+
+            <!--invoke telegram profile and usename  here-->
+            <div> username</div>
+        
+        </div>
+
+        
+        
+    </header>
+    
+    <div class="dashboard-container">
+       
+        <section>
+            <h2>Your Registered Events</h2>
+            <ul id="eventList">
+                <!-- Dynamic events will be loaded here -->
+            </ul>
+
+
+            <button>
+            
+                <a href="events.html" class="Manage-btn">Manage Events</a>
+    
+            </button>
+    
+            <button>
+    
+                <a href="create-events.html" class="create-event-btn">Create New Events</a>
+                
+            </button>
+    
+    
+        </section>
+        
+    </div>
+
+        <footer>
+
+            <a href="dashboard.html">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <span>Dashboard</span>
+            </a>
+    
+            <a href="events.html">
+                <i class="fas fa-calendar-alt icon"></i>
+                <span>Events</span>
+            </a>
+    
+            <a href="create-events.html">
+                <i class="fas fa-plus-circle icon"></i>
+                <span>Create Event</span>
+            </a>
+    
+            <a href="invite.html">
+                <i class="fas fa-share-alt icon"></i>
+                <span>Invite Friends</span>
+            </a>
+            
+        </footer>
+
+        <script src="scripts/create-event.js"></script>
+        <script src="scripts/dashboard.js"></script>
+    
+
+    
+</body>
+</html>

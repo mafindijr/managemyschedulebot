@@ -1,0 +1,122 @@
+.Manage-btn, .create-event-btn {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+   font-size: 15px;
+   max-width: 1000px;
+}
+
+.dashboard-container {
+
+    height: 500px;
+    margin-bottom: 100px;
+    z-index: 10;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 25, 25);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+ul li span {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-flexbox {
+
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    gap: 5px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.p-image {
+
+    width: 50px;
+    border-radius: 25px;
+    top: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 15px;
+        margin: 10px auto;
+    }
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ul li span {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+
+    .Manage-btn, .create-event-btn {
+
+        width: 100%;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+    ul li span {
+        font-size: 12px;
+    }
+    footer {
+        flex-direction: row;
+        padding: 5px 0;
+        justify-content: space-between;
+    }
+    footer a {
+        font-size: 14px;
+    }
+}
